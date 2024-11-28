@@ -2,7 +2,8 @@
 ## that can cache its inverse
 ## set and get the value of the matrix
 ## set and get the valiue of the inverse of the matrix
-## matrix is called from cacheSolve function
+## matrix is called from cacheSolve function below which computes the inverse of the matrix
+
 
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL
