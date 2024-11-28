@@ -33,9 +33,10 @@ cacheSolve <- function(x, ...) {
     message("Getting from cache result")
     return(inv)
   
+  data <- x$get()
+  inv <- solve(data, ...)
+  data <- x$get()
+  inv <- solve(data, ...)
   
-    
-  
-  
-  
+   
 }
