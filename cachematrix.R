@@ -1,8 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## makeCacheMatrix :: This function is used to create a special "matrix" object 
+## that can cache its inverse
+## set and get the value of the matrix
+## set and get the valiue of the inverse of the matrix
 
-## Write a short comment describing this function
-## TEst
 
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL
